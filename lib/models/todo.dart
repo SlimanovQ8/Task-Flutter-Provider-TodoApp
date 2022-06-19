@@ -1,10 +1,9 @@
 import 'dart:collection';
 
 class Todo {
-  static int counter =0 ;
 
-  // int id;
+   int id;
   String title;
   bool done = false;
-  Todo( {required this.title}) ;
+  Todo( {required this.id, required this.title}) ;
 }
